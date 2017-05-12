@@ -31,6 +31,13 @@ $ composer update
 $ php artisan migrate
 ```
 
+- Generar llave de la aplicación
+
+```
+$ php artisan key:genarate
+```
+
+Listo!!!
 
 
 
