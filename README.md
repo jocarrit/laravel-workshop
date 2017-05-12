@@ -31,9 +31,6 @@ $ composer update
 $ php artisan migrate
 ```
 
-- Create a password grant client 
-	
-$ php artisan passport:install
 
 
 
