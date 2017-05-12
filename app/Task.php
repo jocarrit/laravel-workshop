@@ -13,8 +13,13 @@ class Task extends Model
      */
     protected $fillable = ['name'];	
 
+    /**
+     * User relationship
+     * @return [type] [description]
+     */
     public function user()
     {
+    	//recordar que hay que retornar el objeto
     	return $this->belongsTo(User::class);
     }
 
